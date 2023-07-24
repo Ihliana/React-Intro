@@ -4,9 +4,17 @@ import './App.css';
 import Logo from "./images/react-logo.png"
 
 function App() {
+
+  let year = new Date().getFullYear()
   return (
     <div>
-      <img src={Logo} width="40px" alt='React Logo' />
+
+      <header>
+        <nav>
+            <img src={Logo} width="40px" alt='React Logo' />
+        </nav>
+      </header>
+
       <h1>Fun facts about React</h1>
 
       <ul>
@@ -16,6 +24,10 @@ function App() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
+
+      <footer>
+        <small>@ {year} Scrimba</small>
+      </footer>
 
     </div>
   );
