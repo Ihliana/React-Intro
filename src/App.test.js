@@ -14,6 +14,9 @@ describe("App renders corretly", () =>{
     expect(logoElement).toBeInTheDocument()
     expect(logoElement).toHaveAttribute("src", 'react-logo.png')
     expect(logoElement).toHaveAttribute('width', '40px')
+
+    //check is the image has a non-empty alternative text
+    expect(logoElement.alt).toBeTruthy()
   })
 
   test('renders page heading', () => {
