@@ -2,14 +2,39 @@
     box-sizing: border-box;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+body {
+    margin: 0;
+    font-family: sans-serif;
 }
 
-.nav-logo {
-    width: 60px;
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222a;
+    height: 12vh;
+    padding: 1.875em 1.563em;
+}
+
+.nav--logo-text, 
+.nav--title {
+   margin: 0;
+}
+
+.nav--logo-text {
+    margin-right: auto;
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav--title {
+    color: #deebf8;
+    font-weight: 600;
+}
+
+.nav--icon {
+    height: 4em;
+    margin-right: 0.45em;
 }
 
 
