@@ -4,7 +4,7 @@ function Footer(){
     let year = new Date().getFullYear()
   
     return(
-      <footer>
+      <footer role="contentinfo">
         <small>@ {year} Scrimba</small>
     </footer>
   
