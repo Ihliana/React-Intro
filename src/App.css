@@ -69,17 +69,19 @@ main {
 
 
 
-/* 
-Challenge: Place the gray react logo in the background
+/* --- Footer Component --- */
 
-Don't use an `img` element, but rather set it as the
-`background-image` of the `main` element.
+footer {
+    text-align: center;
+    color: #fff;
+}
 
-Hint: you'll need to use the following properties:
-- background-image
-- background-repeat
-- background-position
+/* --- Media Queries --- */
 
-(Or the shorthand `background` property with values for all
-those other properties)
-*/
+
+@media screen and (min-width: 480px) {
+    body {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}
