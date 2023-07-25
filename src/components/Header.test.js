@@ -33,6 +33,8 @@ describe("Header component testing suite", () => {
         const {container} = render(<Header />)
 
         expect(container.querySelector('.nav')).toHaveClass('nav')
+        expect(container.querySelector('.nav--icon')).toHaveClass('nav--icon')
+        expect(container.querySelector('.nav--title')).toHaveClass('nav--title')
     })
 
 
