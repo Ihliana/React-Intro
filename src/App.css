@@ -47,6 +47,9 @@ body {
 main {
     padding: 3.55em 1.687em;
     color: #fff;
+    background-image: url(./images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 55%;
 }
 
 .main--title {
@@ -65,3 +68,18 @@ main {
 }
 
 
+
+/* 
+Challenge: Place the gray react logo in the background
+
+Don't use an `img` element, but rather set it as the
+`background-image` of the `main` element.
+
+Hint: you'll need to use the following properties:
+- background-image
+- background-repeat
+- background-position
+
+(Or the shorthand `background` property with values for all
+those other properties)
+*/
